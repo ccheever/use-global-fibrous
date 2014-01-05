@@ -1,0 +1,27 @@
+{
+  "name": "use-global-fibrous",
+  "version": "0.0.1",
+  "description": "A module that will try to require the global fibrous and tell you to install it if it isn't there",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccheever/use-global-fibrous.git"
+  },
+  "keywords": [
+    "fibrous",
+    "fibers"
+  ],
+  "author": "Charlie Cheever <ccheever@gmail.com> (http://ccheever.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccheever/use-global-fibrous/issues"
+  },
+  "homepage": "https://github.com/ccheever/use-global-fibrous",
+  "dependencies": {
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {}
+}
