@@ -20,7 +20,8 @@ try {
 
 // TODO: Make this less fragile and not assume things about the 
 // way the system is setup
-if (fibrousPath != "/usr/local/lib/node_modules/fibrous/lib/fibrous.js") {
+//if (fibrousPath != "/usr/local/lib/node_modules/fibrous/lib/fibrous.js") {
+if (!/\/usr\/.*\/fibrous.js/.test(fibrousPath)) {
   error();
   throw new Error("Refusing to use local fibrous install");
 }
